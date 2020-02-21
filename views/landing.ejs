@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ImageGallary</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="/" class="navbar-brand">ImageGallary</a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="/">Logout</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+	<div class="row text-center" style="display: flex; flex-wrap: wrap;">
+		<div class="text-center">	
+			<h1 style="text-align: center; margin: 30px auto; width: 30%;">WELCOME!</h1>
+			<h3 style="text-align: center; margin: 30px auto;">About Image Gallary</h3>
+			<h4 style="text-align: center; margin: 30px auto; width: 60%;">An image gallery is a great of showing off high quality images on your site. You could use it to show your shop products, photographs you've taken, and many other things relevant to your business. ...
+				<a href="https://www.create.net/support/how-do-i-create-an-image-gallery">
+					Read more.
+				</a>
+			</h4>
+		<div>
+		<div>
+			<div class="text-left" style=" margin: 30px auto; width: 60%;">
+				<a href = "/loggedin/campgrounds"><button type="button" class="btn btn-primary">My Pictures</button></a>
+			</div>
+			<div class="text-left" style=" margin: 30px auto; width: 60%;">
+				<a href = "/loggedin/campgrounds/new"><button type="button" class="btn btn-success">Add New Picture</button></a>
+			</div>
+			<div class="text-left" style=" margin: 30px auto; width: 60%;">
+				<a href = "/"><button type="button" class="btn btn-warning">Get Home</button></a>
+			</div>
+			<div class="text-left" style=" margin: 30px auto; width: 60%;">
+				<a href = "https://www.create.net/support/how-do-i-create-an-image-gallery"><button type="button" class="btn btn-info">Information</button></a>
+			</div>	
+		</div>
+<% include partials/footer %>
