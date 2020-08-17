@@ -11,7 +11,4 @@
 
 #### Collection of images will be shows in perticular rows and column format.
 
-#### View image in new page, also see the image discription Add and view campgrounds using a database
-
-
-### Currently in-progress!
+#### View image in new page, also see the image discription Add and view using a database.
